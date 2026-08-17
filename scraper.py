@@ -76,6 +76,56 @@ def apply_manual_overrides(items):
         items[name] = {**recipe, "icon": icon}
 
 
+# palworld.wiki.gg has zero pages (not even a stub) for the schematic tiers
+# of these Ancient-Workbench-tier weapons - verified via allpages/search,
+# same as MANUAL_RECIPE_OVERRIDES above. Each is independently confirmed
+# (as of August 2026, via game8/sportskeeda/oneesports coverage of Palworld
+# 1.0 legendary schematics) to use the standard 4-tier schematic system:
+# Uncommon (found/looted, no recipe) -> Rare -> Epic -> Legendary, each
+# tier crafted from 5x the previous tier at a Drafting Table. Deliberately
+# excludes items that also lack schematic data but were confirmed to use a
+# DIFFERENT unlock system instead (Wing Pack, Jetragon's Missile Launcher -
+# both are direct Technology Point unlocks with no schematic/rarity tiers).
+STANDARD_SCHEMATIC_BASES = [
+    "Beam Launcher",
+    "Beam Scatter",
+    "Combat SMG",
+    "Drone Launcher",
+    "Heavy Assault Rifle",
+    "Laser Sword",
+    "Mechanical Bow",
+    "Plasma Rifle",
+    "Prototype Shotgun",
+    "Tactical Grenade Launcher",
+]
+SCHEMATIC_TIER_RARITIES = ["Uncommon", "Rare", "Epic", "Legendary"]
+
+
+def apply_manual_schematic_families(items):
+    added = []
+    for base in STANDARD_SCHEMATIC_BASES:
+        prev_name = None
+        for tier, rarity in enumerate(SCHEMATIC_TIER_RARITIES, start=1):
+            name = f"{base} Schematic {tier}"
+            if name in items and items[name].get("materials"):
+                prev_name = name
+                continue  # already has real scraped data, don't clobber it
+
+            materials = [] if prev_name is None else [{"name": prev_name, "qty": 5}]
+            station = None if prev_name is None else "Drafting Table"
+            icon = items.get(name, {}).get("icon")
+            items[name] = {
+                "result_qty": 1,
+                "station": station,
+                "materials": materials,
+                "rarity": rarity,
+                "icon": icon,
+            }
+            added.append(name)
+            prev_name = name
+    return added
+
+
 def _get_with_retry(params):
     """GETs the API with retry + backoff on 429s (honors Retry-After)."""
     delay = REQUEST_DELAY_SECONDS
@@ -349,6 +399,9 @@ def main():
         print("Fetching icons...")
 
     apply_manual_overrides(items)
+    added_schematics = apply_manual_schematic_families(items)
+    if added_schematics:
+        print(f"Added {len(added_schematics)} manually-sourced schematic tiers: {', '.join(added_schematics)}")
     fetch_icons(items)
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

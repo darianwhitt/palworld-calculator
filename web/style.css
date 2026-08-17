@@ -243,6 +243,11 @@ button:disabled {
   color: var(--leaf);
 }
 
+.node-name.schematic-leaf {
+  color: var(--text-dim);
+  font-style: italic;
+}
+
 .node-qty {
   color: var(--text-dim);
   font-size: 13px;
@@ -462,4 +467,21 @@ input[type="checkbox"] {
 
 .schematic-cost span {
   color: var(--leaf);
+}
+
+.schematic-add-btn {
+  flex-shrink: 0;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.schematic-add-btn:hover {
+  background: var(--accent);
+  color: #1a1300;
 }

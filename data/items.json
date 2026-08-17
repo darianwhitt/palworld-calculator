@@ -18018,5 +18018,435 @@
     "materials": [],
     "icon": "images/Water_Radiant_Gem_icon.png",
     "rarity": null
+  },
+  "Beam Launcher Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Beam_Launcher_Schematic_1_icon.png"
+  },
+  "Beam Launcher Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Beam Launcher Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Beam_Launcher_Schematic_1_icon.png"
+  },
+  "Beam Launcher Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Beam Launcher Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Beam_Launcher_Schematic_1_icon.png"
+  },
+  "Beam Launcher Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Beam Launcher Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Beam_Launcher_Schematic_1_icon.png"
+  },
+  "Beam Scatter Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Beam_Scatter_Schematic_1_icon.png"
+  },
+  "Beam Scatter Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Beam Scatter Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Beam_Scatter_Schematic_1_icon.png"
+  },
+  "Beam Scatter Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Beam Scatter Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Beam_Scatter_Schematic_1_icon.png"
+  },
+  "Beam Scatter Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Beam Scatter Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Beam_Scatter_Schematic_1_icon.png"
+  },
+  "Combat SMG Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Combat_SMG_Schematic_1_icon.png"
+  },
+  "Combat SMG Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Combat SMG Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Combat_SMG_Schematic_1_icon.png"
+  },
+  "Combat SMG Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Combat SMG Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Combat_SMG_Schematic_1_icon.png"
+  },
+  "Combat SMG Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Combat SMG Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Combat_SMG_Schematic_1_icon.png"
+  },
+  "Drone Launcher Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Drone_Launcher_Schematic_1_icon.png"
+  },
+  "Drone Launcher Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Drone Launcher Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Drone_Launcher_Schematic_1_icon.png"
+  },
+  "Drone Launcher Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Drone Launcher Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Drone_Launcher_Schematic_1_icon.png"
+  },
+  "Drone Launcher Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Drone Launcher Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Drone_Launcher_Schematic_1_icon.png"
+  },
+  "Heavy Assault Rifle Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Heavy_Assault_Rifle_Schematic_1_icon.png"
+  },
+  "Heavy Assault Rifle Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Heavy Assault Rifle Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Heavy_Assault_Rifle_Schematic_1_icon.png"
+  },
+  "Heavy Assault Rifle Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Heavy Assault Rifle Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Heavy_Assault_Rifle_Schematic_1_icon.png"
+  },
+  "Heavy Assault Rifle Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Heavy Assault Rifle Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Heavy_Assault_Rifle_Schematic_1_icon.png"
+  },
+  "Laser Sword Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Laser_Sword_Schematic_1_icon.png"
+  },
+  "Laser Sword Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Laser Sword Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Laser_Sword_Schematic_1_icon.png"
+  },
+  "Laser Sword Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Laser Sword Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Laser_Sword_Schematic_1_icon.png"
+  },
+  "Laser Sword Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Laser Sword Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Laser_Sword_Schematic_1_icon.png"
+  },
+  "Mechanical Bow Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Mechanical_Bow_Schematic_1_icon.png"
+  },
+  "Mechanical Bow Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Mechanical Bow Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Mechanical_Bow_Schematic_1_icon.png"
+  },
+  "Mechanical Bow Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Mechanical Bow Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Mechanical_Bow_Schematic_1_icon.png"
+  },
+  "Mechanical Bow Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Mechanical Bow Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Mechanical_Bow_Schematic_1_icon.png"
+  },
+  "Plasma Rifle Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Plasma_Rifle_Schematic_1_icon.png"
+  },
+  "Plasma Rifle Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Plasma Rifle Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Plasma_Rifle_Schematic_1_icon.png"
+  },
+  "Plasma Rifle Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Plasma Rifle Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Plasma_Rifle_Schematic_1_icon.png"
+  },
+  "Plasma Rifle Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Plasma Rifle Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Plasma_Rifle_Schematic_1_icon.png"
+  },
+  "Prototype Shotgun Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Prototype_Shotgun_Schematic_1_icon.png"
+  },
+  "Prototype Shotgun Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Prototype Shotgun Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Prototype_Shotgun_Schematic_1_icon.png"
+  },
+  "Prototype Shotgun Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Prototype Shotgun Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Prototype_Shotgun_Schematic_1_icon.png"
+  },
+  "Prototype Shotgun Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Prototype Shotgun Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Prototype_Shotgun_Schematic_1_icon.png"
+  },
+  "Tactical Grenade Launcher Schematic 1": {
+    "result_qty": 1,
+    "station": null,
+    "materials": [],
+    "rarity": "Uncommon",
+    "icon": "images/Tactical_Grenade_Launcher_Schematic_1_icon.png"
+  },
+  "Tactical Grenade Launcher Schematic 2": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Tactical Grenade Launcher Schematic 1",
+        "qty": 5
+      }
+    ],
+    "rarity": "Rare",
+    "icon": "images/Tactical_Grenade_Launcher_Schematic_1_icon.png"
+  },
+  "Tactical Grenade Launcher Schematic 3": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Tactical Grenade Launcher Schematic 2",
+        "qty": 5
+      }
+    ],
+    "rarity": "Epic",
+    "icon": "images/Tactical_Grenade_Launcher_Schematic_1_icon.png"
+  },
+  "Tactical Grenade Launcher Schematic 4": {
+    "result_qty": 1,
+    "station": "Drafting Table",
+    "materials": [
+      {
+        "name": "Tactical Grenade Launcher Schematic 3",
+        "qty": 5
+      }
+    ],
+    "rarity": "Legendary",
+    "icon": "images/Tactical_Grenade_Launcher_Schematic_1_icon.png"
   }
 }

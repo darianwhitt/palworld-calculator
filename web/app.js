@@ -4,6 +4,11 @@ const STORAGE_KEY_LIST = "palworld-craft-list";
 const STORAGE_KEY_OWNED = "palworld-owned-resources";
 
 const RARITY_ORDER = { Common: 0, Uncommon: 1, Rare: 2, Epic: 3, Legendary: 4 };
+const SCHEMATIC_NAME_RE = / Schematic(?: \d+)?$/;
+
+function isSchematicItem(name) {
+  return SCHEMATIC_NAME_RE.test(name);
+}
 
 let items = {};
 let allNames = [];
@@ -182,11 +187,7 @@ function tryDirectAdd() {
   onAddToList();
 }
 
-function onAddToList() {
-  const name = searchInput.value.trim();
-  if (!items[name]) return;
-
-  const qty = Math.max(1, parseInt(quantityInput.value, 10) || 1);
+function addItemToList(name, qty) {
   const existing = craftList.find((e) => e.name === name);
   if (existing) {
     existing.qty += qty;
@@ -194,14 +195,20 @@ function onAddToList() {
     craftList.push({ name, qty });
   }
   saveList();
+  renderAll();
+}
+
+function onAddToList() {
+  const name = searchInput.value.trim();
+  if (!items[name]) return;
+
+  addItemToList(name, Math.max(1, parseInt(quantityInput.value, 10) || 1));
 
   searchInput.value = "";
   quantityInput.value = 1;
   addBtn.disabled = true;
   schematicPanel.classList.add("hidden");
   hideSuggestions();
-
-  renderAll();
 }
 
 function removeFromList(index) {
@@ -259,6 +266,9 @@ function renderAll() {
     const node = expand(entry.name, entry.qty, rawTotals, new Set());
     rootNodes.push(node);
     for (const [name, total] of Object.entries(rawTotals)) {
+      // Schematics/recipes are blueprint unlocks, not gatherable materials -
+      // still shown in the breakdown tree above, just not tallied here.
+      if (isSchematicItem(name)) continue;
       combinedRaw[name] = (combinedRaw[name] || 0) + total;
     }
   }
@@ -345,9 +355,10 @@ function renderNode(node) {
   row.className = "node-row";
   row.appendChild(iconEl(node.icon, node.name));
 
+  const isSchematic = isSchematicItem(node.name);
   const name = document.createElement("span");
-  name.className = "node-name" + (node.isLeaf ? " raw" : "");
-  name.textContent = node.name;
+  name.className = "node-name" + (node.isLeaf && !isSchematic ? " raw" : "") + (isSchematic ? " schematic-leaf" : "");
+  name.textContent = node.name + (node.isLeaf && isSchematic ? " (found/looted)" : "");
   row.appendChild(name);
 
   const qty = document.createElement("span");
@@ -453,6 +464,14 @@ function renderSchematicPanel(name) {
       }
     }
     row.appendChild(cost);
+
+    const addBtn = document.createElement("button");
+    addBtn.type = "button";
+    addBtn.className = "schematic-add-btn";
+    addBtn.textContent = "+ Add to list";
+    addBtn.title = `Add ${tier.name} to your crafting list`;
+    addBtn.addEventListener("click", () => addItemToList(tier.name, 1));
+    row.appendChild(addBtn);
 
     schematicTable.appendChild(row);
   }
