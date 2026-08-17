@@ -187,12 +187,12 @@ function tryDirectAdd() {
   onAddToList();
 }
 
-function addItemToList(name, qty) {
-  const existing = craftList.find((e) => e.name === name);
+function addItemToList(name, qty, tier) {
+  const existing = craftList.find((e) => e.name === name && e.tier === tier);
   if (existing) {
     existing.qty += qty;
   } else {
-    craftList.push({ name, qty });
+    craftList.push({ name, qty, tier });
   }
   saveList();
   renderAll();
@@ -202,7 +202,7 @@ function onAddToList() {
   const name = searchInput.value.trim();
   if (!items[name]) return;
 
-  addItemToList(name, Math.max(1, parseInt(quantityInput.value, 10) || 1));
+  addItemToList(name, Math.max(1, parseInt(quantityInput.value, 10) || 1), undefined);
 
   searchInput.value = "";
   quantityInput.value = 1;
@@ -224,9 +224,18 @@ function updateQty(index, rawValue) {
   renderAll();
 }
 
-function expand(itemName, quantity, rawTotals, seen) {
+function expand(itemName, quantity, rawTotals, seen, tier) {
   const recipe = items[itemName];
-  const isLeaf = !recipe || !recipe.materials || recipe.materials.length === 0;
+  // A tier only applies to the item it's requested for - a weapon's own
+  // rarity-scaled recipe. Its sub-materials (Plasteel, Carbon Fiber, ...)
+  // always use their own single/default recipe, so tier is never passed
+  // down into the recursive calls below.
+  const materials = tier && recipe && recipe.tiers && recipe.tiers[tier]
+    ? recipe.tiers[tier]
+    : recipe
+      ? recipe.materials
+      : null;
+  const isLeaf = !recipe || !materials || materials.length === 0;
 
   if (isLeaf || seen.has(itemName)) {
     rawTotals[itemName] = (rawTotals[itemName] || 0) + quantity;
@@ -239,7 +248,7 @@ function expand(itemName, quantity, rawTotals, seen) {
   const nextSeen = new Set(seen);
   nextSeen.add(itemName);
 
-  for (const material of recipe.materials) {
+  for (const material of materials) {
     const neededQty = material.qty * craftsNeeded;
     node.children.push(expand(material.name, neededQty, rawTotals, nextSeen));
   }
@@ -263,7 +272,8 @@ function renderAll() {
   const rootNodes = [];
   for (const entry of craftList) {
     const rawTotals = {};
-    const node = expand(entry.name, entry.qty, rawTotals, new Set());
+    const node = expand(entry.name, entry.qty, rawTotals, new Set(), entry.tier);
+    node.rootTier = entry.tier;
     rootNodes.push(node);
     for (const [name, total] of Object.entries(rawTotals)) {
       // Schematics/recipes are blueprint unlocks, not gatherable materials -
@@ -295,7 +305,7 @@ function renderCraftList() {
 
     const name = document.createElement("span");
     name.className = "craft-list-name";
-    name.textContent = entry.name;
+    name.textContent = entry.name + (entry.tier ? ` (${entry.tier})` : "");
     row.appendChild(name);
 
     const qtyInput = document.createElement("input");
@@ -329,7 +339,7 @@ function renderBreakdown(rootNodes) {
     const summary = document.createElement("summary");
     summary.appendChild(iconEl(node.icon, node.name));
     const label = document.createElement("span");
-    label.textContent = node.name;
+    label.textContent = node.name + (node.rootTier ? ` (${node.rootTier})` : "");
     summary.appendChild(label);
     const qty = document.createElement("span");
     qty.className = "node-qty";
@@ -427,35 +437,43 @@ function renderSchematicPanel(name) {
     return;
   }
 
-  const tiers = matches
-    .map((n) => ({ name: n, rarity: items[n].rarity || "Unknown" }))
-    .sort((a, b) => (RARITY_ORDER[a.rarity] ?? 99) - (RARITY_ORDER[b.rarity] ?? 99));
+  const rarities = matches
+    .map((n) => items[n].rarity)
+    .filter(Boolean)
+    .sort((a, b) => (RARITY_ORDER[a] ?? 99) - (RARITY_ORDER[b] ?? 99));
+
+  const recipe = items[name];
+  const hasTierData = recipe && recipe.tiers;
 
   schematicTable.innerHTML = "";
 
-  for (const tier of tiers) {
+  for (const rarity of rarities) {
     const rawTotals = {};
-    expand(tier.name, 1, rawTotals, new Set());
+    expand(name, 1, rawTotals, new Set(), rarity);
 
     const row = document.createElement("div");
     row.className = "schematic-row";
 
     const swatch = document.createElement("span");
     swatch.className = "rarity-swatch";
-    swatch.style.background = `var(--rarity-${tier.rarity.toLowerCase()}, var(--text-dim))`;
+    swatch.style.background = `var(--rarity-${rarity.toLowerCase()}, var(--text-dim))`;
     row.appendChild(swatch);
 
     const rarityLabel = document.createElement("span");
     rarityLabel.className = "rarity-name";
-    rarityLabel.textContent = tier.rarity;
+    rarityLabel.textContent = rarity;
     row.appendChild(rarityLabel);
 
     const cost = document.createElement("div");
     cost.className = "schematic-cost";
-    const entries = Object.entries(rawTotals).sort((a, b) => a[0].localeCompare(b[0]));
+    const entries = Object.entries(rawTotals)
+      .filter(([resName]) => !isSchematicItem(resName))
+      .sort((a, b) => a[0].localeCompare(b[0]));
 
-    if (entries.length === 1 && entries[0][0] === tier.name) {
-      cost.textContent = "Obtained directly (drop/loot) — not craftable from other items";
+    if (entries.length === 0) {
+      cost.textContent = hasTierData
+        ? "No materials found for this tier"
+        : "Same recipe at every tier (no rarity-scaled cost found on the wiki)";
     } else {
       for (const [resName, total] of entries) {
         const span = document.createElement("span");
@@ -469,8 +487,11 @@ function renderSchematicPanel(name) {
     addBtn.type = "button";
     addBtn.className = "schematic-add-btn";
     addBtn.textContent = "+ Add to list";
-    addBtn.title = `Add ${tier.name} to your crafting list`;
-    addBtn.addEventListener("click", () => addItemToList(tier.name, 1));
+    addBtn.title = `Add ${name} (${rarity}) to your crafting list`;
+    addBtn.addEventListener("click", () => {
+      const qty = Math.max(1, parseInt(quantityInput.value, 10) || 1);
+      addItemToList(name, qty, rarity);
+    });
     row.appendChild(addBtn);
 
     schematicTable.appendChild(row);

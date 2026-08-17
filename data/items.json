@@ -85,7 +85,95 @@
       }
     ],
     "icon": "images/Advanced_Bow_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 25
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 50
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 31
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 25
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 37
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 70
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 43
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 35
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 80
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 50
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ]
+    }
   },
   "Advanced Bow Schematic 1": {
     "result_qty": 1,
@@ -674,7 +762,95 @@
       }
     ],
     "icon": "images/Assault_Rifle_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Polymer",
+          "qty": 10
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Polymer",
+          "qty": 12
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Polymer",
+          "qty": 15
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 70
+        },
+        {
+          "name": "Polymer",
+          "qty": 17
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Polymer",
+          "qty": 20
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Assault Rifle Ammo": {
     "result_qty": 5,
@@ -1021,7 +1197,115 @@
       }
     ],
     "icon": "images/Beam_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 50
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 125
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 62
+        },
+        {
+          "name": "AI Core",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 75
+        },
+        {
+          "name": "AI Core",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 175
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 87
+        },
+        {
+          "name": "AI Core",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 200
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 100
+        },
+        {
+          "name": "AI Core",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ]
+    }
   },
   "Beam Scatter": {
     "result_qty": 1,
@@ -1045,7 +1329,115 @@
       }
     ],
     "icon": "images/Beam_Scatter_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 50
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 62
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 62
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 75
+        },
+        {
+          "name": "AI Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 87
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 87
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ]
+    }
   },
   "Beam Sword": {
     "result_qty": 1,
@@ -1069,7 +1461,115 @@
       }
     ],
     "icon": "images/Beam_Sword_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 30
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 100
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 20
+        },
+        {
+          "name": "Computer",
+          "qty": 1
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 37
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 125
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 25
+        },
+        {
+          "name": "Computer",
+          "qty": 1
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 45
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 150
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 30
+        },
+        {
+          "name": "Computer",
+          "qty": 2
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 52
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 175
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 35
+        },
+        {
+          "name": "Computer",
+          "qty": 3
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 200
+        },
+        {
+          "name": "Nightstar Sand",
+          "qty": 40
+        },
+        {
+          "name": "Computer",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ]
+    }
   },
   "Beautiful Flower": {
     "result_qty": 1,
@@ -1474,8 +1974,13 @@
   },
   "Bowler Hat": {
     "result_qty": 1,
-    "station": null,
-    "materials": [],
+    "station": "Primitive Workbench",
+    "materials": [
+      {
+        "name": "Cloth",
+        "qty": 1
+      }
+    ],
     "icon": "images/Bowler_Hat_icon.png",
     "rarity": "Common"
   },
@@ -1699,26 +2204,26 @@
   },
   "Cakes": {
     "result_qty": 1,
-    "station": "Cooking Pot; Electric Kitchen",
+    "station": "Ancient Kitchen",
     "materials": [
       {
         "name": "Flour",
-        "qty": 5
+        "qty": 20
       },
       {
-        "name": "Red Berries",
+        "name": "Caramel Cotton Candy",
         "qty": 8
       },
       {
         "name": "Milk",
-        "qty": 7
+        "qty": 15
       },
       {
         "name": "Egg",
-        "qty": 8
+        "qty": 15
       },
       {
-        "name": "Honey",
+        "name": "Mammorest Meat",
         "qty": 2
       }
     ],
@@ -1751,8 +2256,8 @@
     "station": "Production Assembly Line",
     "materials": [
       {
-        "name": "Coal",
-        "qty": 2
+        "name": "Charcoal",
+        "qty": 5
       },
       {
         "name": "Flame Organ",
@@ -1923,6 +2428,14 @@
       {
         "name": "Stone",
         "qty": 50
+      },
+      {
+        "name": "Bone",
+        "qty": 1
+      },
+      {
+        "name": "Pal Fluids",
+        "qty": 1
       }
     ],
     "icon": "images/Cement_icon.png",
@@ -1976,7 +2489,115 @@
       }
     ],
     "icon": "images/Charge_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 200
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 25
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "Computer",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 250
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 31
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "Computer",
+          "qty": 18
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 300
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 37
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 7
+        },
+        {
+          "name": "Computer",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 350
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 43
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 8
+        },
+        {
+          "name": "Computer",
+          "qty": 26
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 400
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 50
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 10
+        },
+        {
+          "name": "Computer",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ]
+    }
   },
   "Charge Rifle Ammo": {
     "result_qty": 5,
@@ -2196,7 +2817,55 @@
       }
     ],
     "icon": "images/Cloth_Outfit_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Cloth",
+          "qty": 2
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Cloth",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Cloth",
+          "qty": 9
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Cloth",
+          "qty": 13
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ]
+    }
   },
   "Cloth Outfit Schematic 1": {
     "result_qty": 1,
@@ -2255,6 +2924,10 @@
       {
         "name": "Ingot",
         "qty": 2
+      },
+      {
+        "name": "Gunpowder",
+        "qty": 1
       }
     ],
     "icon": "images/Coarse_Ammo_icon.png",
@@ -2282,7 +2955,115 @@
       }
     ],
     "icon": "images/Cold_Resistant_Hexolite_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hexolite",
+          "qty": 50
+        },
+        {
+          "name": "Plasteel",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hexolite",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 40
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hexolite",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 60
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hexolite",
+          "qty": 225
+        },
+        {
+          "name": "Plasteel",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 90
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 35
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hexolite",
+          "qty": 337
+        },
+        {
+          "name": "Plasteel",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 135
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 202
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 45
+        }
+      ]
+    }
   },
   "Cold Resistant Hexolite Armor Schematic 1": {
     "result_qty": 1,
@@ -2349,7 +3130,115 @@
       }
     ],
     "icon": "images/Cold_Resistant_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Leather",
+          "qty": 13
+        },
+        {
+          "name": "Cloth",
+          "qty": 8
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 8
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Leather",
+          "qty": 26
+        },
+        {
+          "name": "Cloth",
+          "qty": 16
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 16
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Leather",
+          "qty": 39
+        },
+        {
+          "name": "Cloth",
+          "qty": 24
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 24
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 180
+        },
+        {
+          "name": "Leather",
+          "qty": 58
+        },
+        {
+          "name": "Cloth",
+          "qty": 36
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 36
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 270
+        },
+        {
+          "name": "Leather",
+          "qty": 87
+        },
+        {
+          "name": "Cloth",
+          "qty": 54
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 54
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ]
+    }
   },
   "Cold Resistant Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -2411,7 +3300,115 @@
       }
     ],
     "icon": "images/Cold_Resistant_Pal_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 16
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Leather",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 12
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 32
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Leather",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 18
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 48
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 11
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Leather",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 27
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 72
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 13
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "Leather",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 40
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 108
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ]
+    }
   },
   "Cold Resistant Pal Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -2460,7 +3457,75 @@
       }
     ],
     "icon": "images/Cold_Resistant_Pelt_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Leather",
+          "qty": 15
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 4
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Leather",
+          "qty": 45
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Leather",
+          "qty": 67
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 18
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Leather",
+          "qty": 100
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 27
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 14
+        }
+      ]
+    }
   },
   "Cold Resistant Pelt Armor Schematic 1": {
     "result_qty": 1,
@@ -2512,7 +3577,115 @@
       }
     ],
     "icon": "images/Cold_Resistant_Plasteel_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 50
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 10
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 150
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 30
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 225
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 45
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 337
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 67
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ]
+    }
   },
   "Cold Resistant Plasteel Armor Schematic 1": {
     "result_qty": 1,
@@ -2579,7 +3752,115 @@
       }
     ],
     "icon": "images/Cold_Resistant_Refined_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Leather",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 3
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 12
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Leather",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 24
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Leather",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 9
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 36
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 180
+        },
+        {
+          "name": "Leather",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 13
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 54
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 11
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 270
+        },
+        {
+          "name": "Leather",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 19
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 81
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ]
+    }
   },
   "Cold Resistant Refined Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -2631,7 +3912,115 @@
       }
     ],
     "icon": "images/Combat_SMG_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 30
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 20
+        },
+        {
+          "name": "AI Core",
+          "qty": 4
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 62
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 37
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 25
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 45
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 30
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 87
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 52
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 35
+        },
+        {
+          "name": "AI Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 60
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 40
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ]
+    }
   },
   "Common Egg": {
     "result_qty": 1,
@@ -2653,7 +4042,7 @@
         "qty": 20
       },
       {
-        "name": "Stone",
+        "name": "stone",
         "qty": 20
       },
       {
@@ -2682,7 +4071,95 @@
       }
     ],
     "icon": "images/Compound_Bow_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Fiber",
+          "qty": 40
+        },
+        {
+          "name": "Nail",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 62
+        },
+        {
+          "name": "Fiber",
+          "qty": 50
+        },
+        {
+          "name": "Nail",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Fiber",
+          "qty": 60
+        },
+        {
+          "name": "Nail",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 87
+        },
+        {
+          "name": "Fiber",
+          "qty": 70
+        },
+        {
+          "name": "Nail",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Fiber",
+          "qty": 80
+        },
+        {
+          "name": "Nail",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Compound Bow Schematic 1": {
     "result_qty": 1,
@@ -2810,7 +4287,115 @@
       }
     ],
     "icon": "images/Core_Eject_Shotgun_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Plasteel",
+          "qty": 65
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 32
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 40
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 81
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 40
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 50
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Plasteel",
+          "qty": 97
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 48
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 140
+        },
+        {
+          "name": "Plasteel",
+          "qty": 113
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 56
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 70
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 160
+        },
+        {
+          "name": "Plasteel",
+          "qty": 130
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 64
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 80
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ]
+    }
   },
   "Core Eject Shotgun Schematic 4": {
     "result_qty": 1,
@@ -2878,7 +4463,103 @@
       }
     ],
     "icon": "images/Crossbow_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Wood",
+          "qty": 50
+        },
+        {
+          "name": "Stone",
+          "qty": 40
+        },
+        {
+          "name": "Ingot",
+          "qty": 10
+        },
+        {
+          "name": "Nail",
+          "qty": 2
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Wood",
+          "qty": 62
+        },
+        {
+          "name": "Stone",
+          "qty": 50
+        },
+        {
+          "name": "Ingot",
+          "qty": 12
+        },
+        {
+          "name": "Nail",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Wood",
+          "qty": 75
+        },
+        {
+          "name": "Stone",
+          "qty": 60
+        },
+        {
+          "name": "Ingot",
+          "qty": 15
+        },
+        {
+          "name": "Nail",
+          "qty": 3
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Wood",
+          "qty": 87
+        },
+        {
+          "name": "Stone",
+          "qty": 70
+        },
+        {
+          "name": "Ingot",
+          "qty": 17
+        },
+        {
+          "name": "Nail",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Wood",
+          "qty": 100
+        },
+        {
+          "name": "Stone",
+          "qty": 80
+        },
+        {
+          "name": "Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Nail",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ]
+    }
   },
   "Crossbow Schematic 1": {
     "result_qty": 1,
@@ -3688,7 +5369,95 @@
       }
     ],
     "icon": "images/Double-Barreled_Shotgun_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Polymer",
+          "qty": 7
+        },
+        {
+          "name": "Hardwood",
+          "qty": 25
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 37
+        },
+        {
+          "name": "Polymer",
+          "qty": 8
+        },
+        {
+          "name": "Hardwood",
+          "qty": 31
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 45
+        },
+        {
+          "name": "Polymer",
+          "qty": 10
+        },
+        {
+          "name": "Hardwood",
+          "qty": 37
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 52
+        },
+        {
+          "name": "Polymer",
+          "qty": 12
+        },
+        {
+          "name": "Hardwood",
+          "qty": 43
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Polymer",
+          "qty": 14
+        },
+        {
+          "name": "Hardwood",
+          "qty": 50
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Double-Barreled Shotgun Schematic 1": {
     "result_qty": 1,
@@ -3874,7 +5643,115 @@
       }
     ],
     "icon": "images/Drone_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 70
+        },
+        {
+          "name": "World Tree Holy Water",
+          "qty": 40
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 87
+        },
+        {
+          "name": "World Tree Holy Water",
+          "qty": 50
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 105
+        },
+        {
+          "name": "World Tree Holy Water",
+          "qty": 60
+        },
+        {
+          "name": "AI Core",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 122
+        },
+        {
+          "name": "World Tree Holy Water",
+          "qty": 70
+        },
+        {
+          "name": "AI Core",
+          "qty": 14
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 140
+        },
+        {
+          "name": "World Tree Holy Water",
+          "qty": 80
+        },
+        {
+          "name": "AI Core",
+          "qty": 16
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ]
+    }
   },
   "Dumud Chowder": {
     "result_qty": 1,
@@ -4342,7 +6219,115 @@
       }
     ],
     "icon": "images/Energy_Shotgun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 155
+        },
+        {
+          "name": "Hexolite",
+          "qty": 130
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "Computer",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 193
+        },
+        {
+          "name": "Hexolite",
+          "qty": 162
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "Computer",
+          "qty": 18
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 232
+        },
+        {
+          "name": "Hexolite",
+          "qty": 195
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 7
+        },
+        {
+          "name": "Computer",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 271
+        },
+        {
+          "name": "Hexolite",
+          "qty": 227
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 8
+        },
+        {
+          "name": "Computer",
+          "qty": 26
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 310
+        },
+        {
+          "name": "Hexolite",
+          "qty": 260
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 10
+        },
+        {
+          "name": "Computer",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ]
+    }
   },
   "Energy Shotgun Ammo": {
     "result_qty": 5,
@@ -4453,7 +6438,45 @@
       }
     ],
     "icon": "images/Enhanced_Lily's_Spear_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Paldium Fragment",
+          "qty": 20
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 20
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Paldium Fragment",
+          "qty": 40
+        },
+        {
+          "name": "Soralite Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 40
+        }
+      ]
+    }
   },
   "Excalibur": {
     "result_qty": 1,
@@ -4465,7 +6488,39 @@
       }
     ],
     "icon": "images/Excalibur_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 45
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 90
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 180
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 360
+        }
+      ]
+    }
   },
   "Excalibur Schematic": {
     "result_qty": 1,
@@ -4741,7 +6796,75 @@
       }
     ],
     "icon": "images/Feathered_Hair_Band_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Fiber",
+          "qty": 10
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Fiber",
+          "qty": 20
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Fiber",
+          "qty": 30
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Fiber",
+          "qty": 45
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Fiber",
+          "qty": 67
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 33
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 13
+        }
+      ]
+    }
   },
   "Feathered Hair Band Schematic 1": {
     "result_qty": 1,
@@ -4828,9 +6951,14 @@
     "rarity": "Uncommon"
   },
   "Fiber": {
-    "result_qty": 1,
-    "station": null,
-    "materials": [],
+    "result_qty": 2,
+    "station": "Crusher",
+    "materials": [
+      {
+        "name": "Wood",
+        "qty": 1
+      }
+    ],
     "icon": "images/Fiber_icon.png",
     "rarity": "Common"
   },
@@ -4880,7 +7008,119 @@
       }
     ],
     "icon": "images/Fire_Arrow_Crossbow_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Wood",
+          "qty": 50
+        },
+        {
+          "name": "Stone",
+          "qty": 50
+        },
+        {
+          "name": "Ingot",
+          "qty": 15
+        },
+        {
+          "name": "Nail",
+          "qty": 5
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Wood",
+          "qty": 100
+        },
+        {
+          "name": "Stone",
+          "qty": 100
+        },
+        {
+          "name": "Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Nail",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Wood",
+          "qty": 150
+        },
+        {
+          "name": "Stone",
+          "qty": 150
+        },
+        {
+          "name": "Ingot",
+          "qty": 45
+        },
+        {
+          "name": "Nail",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Wood",
+          "qty": 225
+        },
+        {
+          "name": "Stone",
+          "qty": 225
+        },
+        {
+          "name": "Ingot",
+          "qty": 67
+        },
+        {
+          "name": "Nail",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Wood",
+          "qty": 337
+        },
+        {
+          "name": "Stone",
+          "qty": 337
+        },
+        {
+          "name": "Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Nail",
+          "qty": 33
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 12
+        }
+      ]
+    }
   },
   "Fire Arrow Crossbow Schematic 1": {
     "result_qty": 1,
@@ -5106,7 +7346,115 @@
       }
     ],
     "icon": "images/Flamethrower_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Plasteel",
+          "qty": 30
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 13
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Plasteel",
+          "qty": 37
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 16
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 37
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Plasteel",
+          "qty": 45
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 19
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 70
+        },
+        {
+          "name": "Plasteel",
+          "qty": 52
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 22
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 52
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 26
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ]
+    }
   },
   "Flamethrower Fuel": {
     "result_qty": 5,
@@ -5530,7 +7878,95 @@
       }
     ],
     "icon": "images/Gatling_Gun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 70
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 70
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 187
+        },
+        {
+          "name": "Plasteel",
+          "qty": 87
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 87
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 225
+        },
+        {
+          "name": "Plasteel",
+          "qty": 105
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 105
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 262
+        },
+        {
+          "name": "Plasteel",
+          "qty": 122
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 122
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 300
+        },
+        {
+          "name": "Plasteel",
+          "qty": 140
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 140
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ]
+    }
   },
   "Gatling Gun Ammo": {
     "result_qty": 5,
@@ -6162,7 +8598,95 @@
       }
     ],
     "icon": "images/Grenade_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 93
+        },
+        {
+          "name": "Plasteel",
+          "qty": 75
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 18
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 112
+        },
+        {
+          "name": "Plasteel",
+          "qty": 90
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 131
+        },
+        {
+          "name": "Plasteel",
+          "qty": 105
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 26
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 120
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ]
+    }
   },
   "Grenade Launcher Schematic 1": {
     "result_qty": 1,
@@ -6533,7 +9057,115 @@
       }
     ],
     "icon": "images/Guided_Missile_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 50
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 25
+        },
+        {
+          "name": "Computer",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 125
+        },
+        {
+          "name": "Plasteel",
+          "qty": 62
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 31
+        },
+        {
+          "name": "Computer",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 75
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 37
+        },
+        {
+          "name": "Computer",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 175
+        },
+        {
+          "name": "Plasteel",
+          "qty": 87
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 43
+        },
+        {
+          "name": "Computer",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 200
+        },
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 50
+        },
+        {
+          "name": "Computer",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ]
+    }
   },
   "Guided Missile Launcher Schematic 1": {
     "result_qty": 1,
@@ -6627,8 +9259,17 @@
   },
   "Gunpowder": {
     "result_qty": 1,
-    "station": null,
-    "materials": [],
+    "station": "High Quality Workbench",
+    "materials": [
+      {
+        "name": "Charcoal",
+        "qty": 1
+      },
+      {
+        "name": "Sulfur",
+        "qty": 1
+      }
+    ],
     "icon": "images/Gunpowder_icon.png",
     "rarity": "Common"
   },
@@ -6656,7 +9297,39 @@
       }
     ],
     "icon": "images/Hallowed_Headgear_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 30
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        }
+      ]
+    }
   },
   "Hallowed Headgear Schematic": {
     "result_qty": 1,
@@ -6723,7 +9396,39 @@
       }
     ],
     "icon": "images/Hallowed_Helmet_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 30
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        }
+      ]
+    }
   },
   "Hallowed Helmet Schematic": {
     "result_qty": 1,
@@ -6790,7 +9495,39 @@
       }
     ],
     "icon": "images/Hallowed_Hood_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 30
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        }
+      ]
+    }
   },
   "Hallowed Hood Schematic": {
     "result_qty": 1,
@@ -6857,7 +9594,39 @@
       }
     ],
     "icon": "images/Hallowed_Mask_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 30
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        }
+      ]
+    }
   },
   "Hallowed Mask Schematic": {
     "result_qty": 1,
@@ -6924,7 +9693,39 @@
       }
     ],
     "icon": "images/Hallowed_Plate_Mail_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 30
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        }
+      ]
+    }
   },
   "Hallowed Plate Mail Schematic": {
     "result_qty": 1,
@@ -7018,7 +9819,67 @@
       }
     ],
     "icon": "images/Handgun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 50
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 62
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 18
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 75
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 22
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 87
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 26
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 100
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Handgun Ammo": {
     "result_qty": 10,
@@ -7211,7 +10072,115 @@
       }
     ],
     "icon": "images/Heat_Resistant_Hexolite_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hexolite",
+          "qty": 50
+        },
+        {
+          "name": "Plasteel",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hexolite",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 40
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hexolite",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 60
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hexolite",
+          "qty": 225
+        },
+        {
+          "name": "Plasteel",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 90
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 35
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hexolite",
+          "qty": 337
+        },
+        {
+          "name": "Plasteel",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 135
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 202
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 45
+        }
+      ]
+    }
   },
   "Heat Resistant Hexolite Armor Schematic 1": {
     "result_qty": 1,
@@ -7278,7 +10247,115 @@
       }
     ],
     "icon": "images/Heat_Resistant_Metal_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Leather",
+          "qty": 13
+        },
+        {
+          "name": "Cloth",
+          "qty": 8
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 8
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Leather",
+          "qty": 26
+        },
+        {
+          "name": "Cloth",
+          "qty": 16
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 16
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Leather",
+          "qty": 39
+        },
+        {
+          "name": "Cloth",
+          "qty": 24
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 24
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 180
+        },
+        {
+          "name": "Leather",
+          "qty": 58
+        },
+        {
+          "name": "Cloth",
+          "qty": 36
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 36
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 270
+        },
+        {
+          "name": "Leather",
+          "qty": 87
+        },
+        {
+          "name": "Cloth",
+          "qty": 54
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 54
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ]
+    }
   },
   "Heat Resistant Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -7330,7 +10407,115 @@
       }
     ],
     "icon": "images/Heat_Resistant_Pal_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 16
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Leather",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 12
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 32
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Leather",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 18
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 48
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 11
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Leather",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 27
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 72
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 13
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "Leather",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 40
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 108
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ]
+    }
   },
   "Heat Resistant Pal Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -7374,7 +10559,75 @@
       }
     ],
     "icon": "images/Heat_Resistant_Pelt_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Leather",
+          "qty": 15
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 4
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Leather",
+          "qty": 45
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Leather",
+          "qty": 67
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 18
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Leather",
+          "qty": 100
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 27
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 14
+        }
+      ]
+    }
   },
   "Heat Resistant Pelt Armor Schematic 1": {
     "result_qty": 1,
@@ -7426,7 +10679,115 @@
       }
     ],
     "icon": "images/Heat_Resistant_Plasteel_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 50
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 10
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 150
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 30
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 225
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 45
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 337
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 67
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ]
+    }
   },
   "Heat Resistant Plasteel Armor Schematic 1": {
     "result_qty": 1,
@@ -7493,7 +10854,115 @@
       }
     ],
     "icon": "images/Heat_Resistant_Refined_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Leather",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 3
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 12
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Leather",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 24
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Leather",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 9
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 36
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 180
+        },
+        {
+          "name": "Leather",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 13
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 54
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 11
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 270
+        },
+        {
+          "name": "Leather",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 19
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 81
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ]
+    }
   },
   "Heat Resistant Refined Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -7566,7 +11035,115 @@
       }
     ],
     "icon": "images/Heavy_Assault_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 50
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 30
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 125
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 62
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 37
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 75
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 45
+        },
+        {
+          "name": "AI Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 175
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 87
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 52
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 200
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 100
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 60
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ]
+    }
   },
   "Heavy Weight Module": {
     "result_qty": 1,
@@ -7781,7 +11358,95 @@
       }
     ],
     "icon": "images/Hexolite_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hexolite",
+          "qty": 50
+        },
+        {
+          "name": "Plasteel",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hexolite",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hexolite",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hexolite",
+          "qty": 225
+        },
+        {
+          "name": "Plasteel",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 35
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hexolite",
+          "qty": 337
+        },
+        {
+          "name": "Plasteel",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 45
+        }
+      ]
+    }
   },
   "Hexolite Armor Schematic 1": {
     "result_qty": 1,
@@ -7840,7 +11505,75 @@
       }
     ],
     "icon": "images/Hexolite_Helmet_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hexolite",
+          "qty": 40
+        },
+        {
+          "name": "Plasteel",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hexolite",
+          "qty": 80
+        },
+        {
+          "name": "Plasteel",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hexolite",
+          "qty": 120
+        },
+        {
+          "name": "Plasteel",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hexolite",
+          "qty": 180
+        },
+        {
+          "name": "Plasteel",
+          "qty": 67
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 35
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hexolite",
+          "qty": 270
+        },
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 45
+        }
+      ]
+    }
   },
   "Hexolite Helmet Schematic 1": {
     "result_qty": 1,
@@ -8147,8 +11880,13 @@
   },
   "Hot Milk": {
     "result_qty": 1,
-    "station": null,
-    "materials": [],
+    "station": "Campfire; Cooking Pot; Electric Kitchen",
+    "materials": [
+      {
+        "name": "Milk",
+        "qty": 1
+      }
+    ],
     "icon": "images/Hot_Milk_icon.png",
     "rarity": "Common"
   },
@@ -9092,7 +12830,95 @@
       }
     ],
     "icon": "images/Katana_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 2
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 25
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 2
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 3
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 3
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 35
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 4
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 5
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ]
+    }
   },
   "Katress Cap": {
     "result_qty": 1,
@@ -9442,12 +13268,12 @@
     "rarity": "Rare"
   },
   "Large Pal Soul": {
-    "result_qty": 1,
+    "result_qty": 2,
     "station": "Crusher",
     "materials": [
       {
-        "name": "Medium Pal Soul",
-        "qty": 2
+        "name": "Giant Pal Soul",
+        "qty": 1
       }
     ],
     "icon": "images/Large_Pal_Soul_icon.png",
@@ -9543,7 +13369,115 @@
       }
     ],
     "icon": "images/Laser_Gatling_Gun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 110
+        },
+        {
+          "name": "Hexolite",
+          "qty": 100
+        },
+        {
+          "name": "Computer",
+          "qty": 10
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 137
+        },
+        {
+          "name": "Hexolite",
+          "qty": 125
+        },
+        {
+          "name": "Computer",
+          "qty": 12
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 3
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 165
+        },
+        {
+          "name": "Hexolite",
+          "qty": 150
+        },
+        {
+          "name": "Computer",
+          "qty": 15
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 192
+        },
+        {
+          "name": "Hexolite",
+          "qty": 175
+        },
+        {
+          "name": "Computer",
+          "qty": 17
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 220
+        },
+        {
+          "name": "Hexolite",
+          "qty": 200
+        },
+        {
+          "name": "Computer",
+          "qty": 20
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ]
+    }
   },
   "Laser Gatling Gun Schematic 1": {
     "result_qty": 1,
@@ -9610,7 +13544,115 @@
       }
     ],
     "icon": "images/Laser_Rifle_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 5
+        },
+        {
+          "name": "Computer",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 62
+        },
+        {
+          "name": "Plasteel",
+          "qty": 50
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 6
+        },
+        {
+          "name": "Computer",
+          "qty": 3
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 7
+        },
+        {
+          "name": "Computer",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 87
+        },
+        {
+          "name": "Plasteel",
+          "qty": 70
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 8
+        },
+        {
+          "name": "Computer",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 80
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 10
+        },
+        {
+          "name": "Computer",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ]
+    }
   },
   "Laser Rifle Schematic 1": {
     "result_qty": 1,
@@ -9677,7 +13719,115 @@
       }
     ],
     "icon": "images/Laser_Sword_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 250
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 30
+        },
+        {
+          "name": "AI Core",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 62
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 312
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 37
+        },
+        {
+          "name": "AI Core",
+          "qty": 3
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 375
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 45
+        },
+        {
+          "name": "AI Core",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 87
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 437
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 52
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 500
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 60
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ]
+    }
   },
   "Leather": {
     "result_qty": 1,
@@ -9875,7 +14025,95 @@
       }
     ],
     "icon": "images/Lightweight_Hexolite_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hexolite",
+          "qty": 100
+        },
+        {
+          "name": "Plasteel",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hexolite",
+          "qty": 200
+        },
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hexolite",
+          "qty": 300
+        },
+        {
+          "name": "Plasteel",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hexolite",
+          "qty": 450
+        },
+        {
+          "name": "Plasteel",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 35
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hexolite",
+          "qty": 675
+        },
+        {
+          "name": "Plasteel",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 45
+        }
+      ]
+    }
   },
   "Lightweight Hexolite Armor Schematic 1": {
     "result_qty": 1,
@@ -9938,7 +14176,95 @@
       }
     ],
     "icon": "images/Lightweight_Plasteel_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 200
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 300
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 450
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 675
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 67
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ]
+    }
   },
   "Lightweight Plasteel Armor Schematic 1": {
     "result_qty": 1,
@@ -10019,7 +14345,45 @@
       }
     ],
     "icon": "images/Lily's_Spear_icon.png",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Paldium Fragment",
+          "qty": 20
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Paldium Fragment",
+          "qty": 40
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Wooden Board",
+          "qty": 6
+        }
+      ]
+    }
   },
   "Little Kinship Peach": {
     "result_qty": 1,
@@ -10242,7 +14606,87 @@
       }
     ],
     "icon": "images/Makeshift_Assault_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 70
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 20
+        },
+        {
+          "name": "Fiber",
+          "qty": 60
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 87
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 25
+        },
+        {
+          "name": "Fiber",
+          "qty": 75
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 105
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 30
+        },
+        {
+          "name": "Fiber",
+          "qty": 90
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 122
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 35
+        },
+        {
+          "name": "Fiber",
+          "qty": 105
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 140
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 40
+        },
+        {
+          "name": "Fiber",
+          "qty": 120
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Makeshift Assault Rifle Schematic 1": {
     "result_qty": 1,
@@ -10305,7 +14749,87 @@
       }
     ],
     "icon": "images/Makeshift_Handgun_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 35
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 10
+        },
+        {
+          "name": "Fiber",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 43
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 12
+        },
+        {
+          "name": "Fiber",
+          "qty": 37
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 52
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 15
+        },
+        {
+          "name": "Fiber",
+          "qty": 45
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 61
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 17
+        },
+        {
+          "name": "Fiber",
+          "qty": 52
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 70
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 20
+        },
+        {
+          "name": "Fiber",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Makeshift Handgun Schematic 1": {
     "result_qty": 1,
@@ -10368,7 +14892,87 @@
       }
     ],
     "icon": "images/Makeshift_Shotgun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 15
+        },
+        {
+          "name": "Fiber",
+          "qty": 50
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 75
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 18
+        },
+        {
+          "name": "Fiber",
+          "qty": 62
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 22
+        },
+        {
+          "name": "Fiber",
+          "qty": 75
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 105
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 26
+        },
+        {
+          "name": "Fiber",
+          "qty": 87
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 120
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 30
+        },
+        {
+          "name": "Fiber",
+          "qty": 100
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Makeshift Shotgun Schematic 1": {
     "result_qty": 1,
@@ -10431,7 +15035,87 @@
       }
     ],
     "icon": "images/Makeshift_SMG_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 10
+        },
+        {
+          "name": "Fiber",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 50
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 12
+        },
+        {
+          "name": "Fiber",
+          "qty": 37
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 15
+        },
+        {
+          "name": "Fiber",
+          "qty": 45
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 70
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 17
+        },
+        {
+          "name": "Fiber",
+          "qty": 52
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 80
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 20
+        },
+        {
+          "name": "Fiber",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Makeshift SMG Schematic 1": {
     "result_qty": 1,
@@ -10648,7 +15332,115 @@
       }
     ],
     "icon": "images/Marksman_Revolver_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 15
+        },
+        {
+          "name": "Gold Coin",
+          "qty": 1
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 30
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 75
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 18
+        },
+        {
+          "name": "Gold Coin",
+          "qty": 1
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 37
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 22
+        },
+        {
+          "name": "Gold Coin",
+          "qty": 1
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 105
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 26
+        },
+        {
+          "name": "Gold Coin",
+          "qty": 1
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 52
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 120
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 30
+        },
+        {
+          "name": "Gold Coin",
+          "qty": 1
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ]
+    }
   },
   "Marksman Revolver Schematic 4": {
     "result_qty": 1,
@@ -10706,7 +15498,115 @@
       }
     ],
     "icon": "images/Mechanical_Bow_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 20
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 200
+        },
+        {
+          "name": "AI Core",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 25
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 250
+        },
+        {
+          "name": "AI Core",
+          "qty": 3
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 30
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 300
+        },
+        {
+          "name": "AI Core",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 70
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 35
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 350
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 40
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 400
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ]
+    }
   },
   "Medical Supplies": {
     "result_qty": 1,
@@ -10729,12 +15629,12 @@
     "rarity": "Common"
   },
   "Medium Pal Soul": {
-    "result_qty": 1,
+    "result_qty": 2,
     "station": "Crusher",
     "materials": [
       {
-        "name": "Small Pal Soul",
-        "qty": 2
+        "name": "Large Pal Soul",
+        "qty": 1
       }
     ],
     "icon": "images/Medium_Pal_Soul_icon.png",
@@ -10954,7 +15854,95 @@
       }
     ],
     "icon": "images/Metal_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Leather",
+          "qty": 10
+        },
+        {
+          "name": "Cloth",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Leather",
+          "qty": 20
+        },
+        {
+          "name": "Cloth",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "Cloth",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Leather",
+          "qty": 45
+        },
+        {
+          "name": "Cloth",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 202
+        },
+        {
+          "name": "Leather",
+          "qty": 67
+        },
+        {
+          "name": "Cloth",
+          "qty": 33
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 14
+        }
+      ]
+    }
   },
   "Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -11018,7 +16006,59 @@
       }
     ],
     "icon": "images/Metal_Bat_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hardwood",
+          "qty": 30
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hardwood",
+          "qty": 37
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 25
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hardwood",
+          "qty": 45
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hardwood",
+          "qty": 52
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 35
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hardwood",
+          "qty": 60
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 40
+        }
+      ]
+    }
   },
   "Metal Detector": {
     "result_qty": 1,
@@ -11058,7 +16098,75 @@
       }
     ],
     "icon": "images/Metal_Helm_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 67
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 14
+        }
+      ]
+    }
   },
   "Metal Helm Schematic 1": {
     "result_qty": 1,
@@ -11150,7 +16258,45 @@
       }
     ],
     "icon": "images/Meteor_Launcher_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Meteorite Fragment",
+          "qty": 100
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 20
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 5
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Meteorite Fragment",
+          "qty": 200
+        },
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 40
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 10
+        }
+      ]
+    }
   },
   "Meteorite Ammo": {
     "result_qty": 1,
@@ -11553,7 +16699,115 @@
       }
     ],
     "icon": "images/Multi_Guided_Missile_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Plasteel",
+          "qty": 80
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 30
+        },
+        {
+          "name": "Computer",
+          "qty": 8
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 187
+        },
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 37
+        },
+        {
+          "name": "Computer",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 225
+        },
+        {
+          "name": "Plasteel",
+          "qty": 120
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 45
+        },
+        {
+          "name": "Computer",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 262
+        },
+        {
+          "name": "Plasteel",
+          "qty": 140
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 52
+        },
+        {
+          "name": "Computer",
+          "qty": 14
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 300
+        },
+        {
+          "name": "Plasteel",
+          "qty": 160
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 60
+        },
+        {
+          "name": "Computer",
+          "qty": 16
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ]
+    }
   },
   "Multi Guided Missile Launcher Schematic": {
     "result_qty": 1,
@@ -11757,7 +17011,87 @@
       }
     ],
     "icon": "images/Musket_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 25
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 5
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 31
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 6
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 3
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 37
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 7
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 43
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 8
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 5
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 50
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 10
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Musket Schematic 1": {
     "result_qty": 1,
@@ -11965,7 +17299,79 @@
       }
     ],
     "icon": "images/Nightglow_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 40
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 480
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 240
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ]
+    }
   },
   "Nightglow Schematic": {
     "result_qty": 1,
@@ -12115,7 +17521,83 @@
       }
     ],
     "icon": "images/Old_Bow_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Wood",
+          "qty": 30
+        },
+        {
+          "name": "Stone",
+          "qty": 5
+        },
+        {
+          "name": "Fiber",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Wood",
+          "qty": 37
+        },
+        {
+          "name": "Stone",
+          "qty": 6
+        },
+        {
+          "name": "Fiber",
+          "qty": 18
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Wood",
+          "qty": 45
+        },
+        {
+          "name": "Stone",
+          "qty": 7
+        },
+        {
+          "name": "Fiber",
+          "qty": 22
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Wood",
+          "qty": 52
+        },
+        {
+          "name": "Stone",
+          "qty": 8
+        },
+        {
+          "name": "Fiber",
+          "qty": 26
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Wood",
+          "qty": 60
+        },
+        {
+          "name": "Stone",
+          "qty": 10
+        },
+        {
+          "name": "Fiber",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ]
+    }
   },
   "Old Bow Schematic 1": {
     "result_qty": 1,
@@ -12159,7 +17641,67 @@
       }
     ],
     "icon": "images/Old_Revolver_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 75
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 25
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 30
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 105
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 35
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 120
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Old Revolver Schematic 1": {
     "result_qty": 1,
@@ -12263,7 +17805,115 @@
       }
     ],
     "icon": "images/Overheat_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 160
+        },
+        {
+          "name": "Hexolite",
+          "qty": 135
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 50
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 200
+        },
+        {
+          "name": "Hexolite",
+          "qty": 168
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 62
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 240
+        },
+        {
+          "name": "Hexolite",
+          "qty": 202
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 7
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 75
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 280
+        },
+        {
+          "name": "Hexolite",
+          "qty": 236
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 8
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 87
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 320
+        },
+        {
+          "name": "Hexolite",
+          "qty": 270
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 10
+        },
+        {
+          "name": "Cryogenic Coolant",
+          "qty": 100
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ]
+    }
   },
   "Overheat Rifle Ammo": {
     "result_qty": 10,
@@ -12374,7 +18024,95 @@
       }
     ],
     "icon": "images/Pal_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Leather",
+          "qty": 20
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 4
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Leather",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Leather",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Leather",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 18
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 12
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Leather",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 27
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 18
+        }
+      ]
+    }
   },
   "Pal Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -12442,7 +18180,75 @@
       }
     ],
     "icon": "images/Pal_Metal_Helm_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 11
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 90
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 13
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 135
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ]
+    }
   },
   "Pal Metal Helm Schematic 1": {
     "result_qty": 1,
@@ -12714,7 +18520,55 @@
       }
     ],
     "icon": "images/Pelt_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Leather",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Leather",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Leather",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Leather",
+          "qty": 67
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 13
+        }
+      ]
+    }
   },
   "Pelt Armor Schematic 1": {
     "result_qty": 1,
@@ -12917,7 +18771,115 @@
       }
     ],
     "icon": "images/Plasma_Cannon_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 150
+        },
+        {
+          "name": "Hexolite",
+          "qty": 130
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 4
+        },
+        {
+          "name": "Computer",
+          "qty": 8
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 187
+        },
+        {
+          "name": "Hexolite",
+          "qty": 162
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "Computer",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 225
+        },
+        {
+          "name": "Hexolite",
+          "qty": 195
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "Computer",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 262
+        },
+        {
+          "name": "Hexolite",
+          "qty": 227
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 7
+        },
+        {
+          "name": "Computer",
+          "qty": 14
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 300
+        },
+        {
+          "name": "Hexolite",
+          "qty": 260
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 8
+        },
+        {
+          "name": "Computer",
+          "qty": 16
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ]
+    }
   },
   "Plasma Cannon Schematic 1": {
     "result_qty": 1,
@@ -13028,7 +18990,115 @@
       }
     ],
     "icon": "images/Plasma_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 50
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 7
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 62
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 75
+        },
+        {
+          "name": "AI Core",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 140
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 50
+        },
+        {
+          "name": "AI Core",
+          "qty": 14
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Paloxite Ingot",
+          "qty": 160
+        },
+        {
+          "name": "Bio Battery",
+          "qty": 100
+        },
+        {
+          "name": "AI Core",
+          "qty": 16
+        },
+        {
+          "name": "Ancient Civilization Core",
+          "qty": 14
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ]
+    }
   },
   "Plasteel": {
     "result_qty": 1,
@@ -13068,7 +19138,95 @@
       }
     ],
     "icon": "images/Plasteel_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 50
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 100
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 150
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 90
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 225
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 135
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 337
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 67
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ]
+    }
   },
   "Plasteel Armor Schematic 1": {
     "result_qty": 1,
@@ -13127,7 +19285,75 @@
       }
     ],
     "icon": "images/Plasteel_Helmet_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 25
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Plasteel",
+          "qty": 80
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Plasteel",
+          "qty": 120
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Plasteel",
+          "qty": 180
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 112
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 19
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 270
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 168
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 25
+        }
+      ]
+    }
   },
   "Plasteel Helmet Schematic 1": {
     "result_qty": 1,
@@ -13225,7 +19451,119 @@
       }
     ],
     "icon": "images/Poison_Arrow_Crossbow_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Wood",
+          "qty": 50
+        },
+        {
+          "name": "Stone",
+          "qty": 50
+        },
+        {
+          "name": "Ingot",
+          "qty": 15
+        },
+        {
+          "name": "Nail",
+          "qty": 5
+        },
+        {
+          "name": "Venom Gland",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Wood",
+          "qty": 100
+        },
+        {
+          "name": "Stone",
+          "qty": 100
+        },
+        {
+          "name": "Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Nail",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Wood",
+          "qty": 150
+        },
+        {
+          "name": "Stone",
+          "qty": 150
+        },
+        {
+          "name": "Ingot",
+          "qty": 45
+        },
+        {
+          "name": "Nail",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Wood",
+          "qty": 225
+        },
+        {
+          "name": "Stone",
+          "qty": 225
+        },
+        {
+          "name": "Ingot",
+          "qty": 67
+        },
+        {
+          "name": "Nail",
+          "qty": 22
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Wood",
+          "qty": 337
+        },
+        {
+          "name": "Stone",
+          "qty": 337
+        },
+        {
+          "name": "Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Nail",
+          "qty": 33
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 12
+        }
+      ]
+    }
   },
   "Poison Arrow Crossbow Schematic 1": {
     "result_qty": 1,
@@ -13515,7 +19853,115 @@
       }
     ],
     "icon": "images/Prototype_Shotgun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 40
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 50
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 60
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 7
+        },
+        {
+          "name": "AI Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 105
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 70
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 8
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 80
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 10
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ]
+    }
   },
   "Pump-action Shotgun": {
     "result_qty": 1,
@@ -13535,7 +19981,95 @@
       }
     ],
     "icon": "images/Pump-action_Shotgun_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Polymer",
+          "qty": 20
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 37
+        },
+        {
+          "name": "Polymer",
+          "qty": 25
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 45
+        },
+        {
+          "name": "Polymer",
+          "qty": 30
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 52
+        },
+        {
+          "name": "Polymer",
+          "qty": 35
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Polymer",
+          "qty": 40
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Pump-Action Shotgun Schematic 1": {
     "result_qty": 1,
@@ -13913,7 +20447,95 @@
       }
     ],
     "icon": "images/Refined_Metal_Armor_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Leather",
+          "qty": 15
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 2
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Leather",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Leather",
+          "qty": 45
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Leather",
+          "qty": 67
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 9
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 202
+        },
+        {
+          "name": "Leather",
+          "qty": 100
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 13
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 16
+        }
+      ]
+    }
   },
   "Refined Metal Armor Schematic 1": {
     "result_qty": 1,
@@ -13977,7 +20599,75 @@
       }
     ],
     "icon": "images/Refined_Metal_Helm_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 15
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 45
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 90
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 67
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 11
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 135
+        },
+        {
+          "name": "Paldium Fragment",
+          "qty": 100
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 17
+        }
+      ]
+    }
   },
   "Refined Metal Helm Schematic 1": {
     "result_qty": 1,
@@ -14673,7 +21363,115 @@
       }
     ],
     "icon": "images/Rocket_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Polymer",
+          "qty": 30
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 25
+        },
+        {
+          "name": "Computer",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 93
+        },
+        {
+          "name": "Polymer",
+          "qty": 37
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 31
+        },
+        {
+          "name": "Computer",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 112
+        },
+        {
+          "name": "Polymer",
+          "qty": 45
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 37
+        },
+        {
+          "name": "Computer",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 131
+        },
+        {
+          "name": "Polymer",
+          "qty": 52
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 43
+        },
+        {
+          "name": "Computer",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Coralum Ingot",
+          "qty": 150
+        },
+        {
+          "name": "Polymer",
+          "qty": 60
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 50
+        },
+        {
+          "name": "Computer",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ]
+    }
   },
   "Rocket Launcher Schematic 1": {
     "result_qty": 1,
@@ -14968,7 +21766,75 @@
       }
     ],
     "icon": "images/Semi-Auto_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 35
+        },
+        {
+          "name": "Polymer",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 43
+        },
+        {
+          "name": "Polymer",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 52
+        },
+        {
+          "name": "Polymer",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 61
+        },
+        {
+          "name": "Polymer",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 70
+        },
+        {
+          "name": "Polymer",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Semi-Auto Rifle Schematic 1": {
     "result_qty": 1,
@@ -15031,7 +21897,95 @@
       }
     ],
     "icon": "images/Semi-Auto_Shotgun_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Polymer",
+          "qty": 20
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 10
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 62
+        },
+        {
+          "name": "Polymer",
+          "qty": 25
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 75
+        },
+        {
+          "name": "Polymer",
+          "qty": 30
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 15
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 87
+        },
+        {
+          "name": "Polymer",
+          "qty": 35
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 17
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Polymer",
+          "qty": 40
+        },
+        {
+          "name": "Carbon Fiber",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Semi-Auto Shotgun Schematic 1": {
     "result_qty": 1,
@@ -15311,7 +22265,95 @@
       }
     ],
     "icon": "images/Single-Shot_Rifle_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Polymer",
+          "qty": 5
+        },
+        {
+          "name": "Hardwood",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 25
+        },
+        {
+          "name": "Polymer",
+          "qty": 6
+        },
+        {
+          "name": "Hardwood",
+          "qty": 25
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Polymer",
+          "qty": 7
+        },
+        {
+          "name": "Hardwood",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 35
+        },
+        {
+          "name": "Polymer",
+          "qty": 8
+        },
+        {
+          "name": "Hardwood",
+          "qty": 35
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 40
+        },
+        {
+          "name": "Polymer",
+          "qty": 10
+        },
+        {
+          "name": "Hardwood",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "Single-Shot Rifle Schematic 1": {
     "result_qty": 1,
@@ -15511,7 +22553,75 @@
       }
     ],
     "icon": "images/SMG_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Refined Ingot",
+          "qty": 25
+        },
+        {
+          "name": "Polymer",
+          "qty": 6
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Refined Ingot",
+          "qty": 31
+        },
+        {
+          "name": "Polymer",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Refined Ingot",
+          "qty": 37
+        },
+        {
+          "name": "Polymer",
+          "qty": 9
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Refined Ingot",
+          "qty": 43
+        },
+        {
+          "name": "Polymer",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Refined Ingot",
+          "qty": 50
+        },
+        {
+          "name": "Polymer",
+          "qty": 12
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ]
+    }
   },
   "SMG Schematic 1": {
     "result_qty": 1,
@@ -16256,7 +23366,87 @@
       }
     ],
     "icon": "images/Sword_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 2
+        },
+        {
+          "name": "Stone",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Ingot",
+          "qty": 37
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 2
+        },
+        {
+          "name": "Stone",
+          "qty": 27
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Ingot",
+          "qty": 45
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 3
+        },
+        {
+          "name": "Stone",
+          "qty": 30
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Ingot",
+          "qty": 52
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 4
+        },
+        {
+          "name": "Stone",
+          "qty": 35
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 1
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Wooden Board",
+          "qty": 5
+        },
+        {
+          "name": "Stone",
+          "qty": 40
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ]
+    }
   },
   "Tactical Grenade Launcher": {
     "result_qty": 1,
@@ -16280,7 +23470,115 @@
       }
     ],
     "icon": "images/Tactical_Grenade_Launcher_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 80
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 15
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 5
+        },
+        {
+          "name": "AI Core",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 100
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 18
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 6
+        },
+        {
+          "name": "AI Core",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 22
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 7
+        },
+        {
+          "name": "AI Core",
+          "qty": 7
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 140
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 26
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 8
+        },
+        {
+          "name": "AI Core",
+          "qty": 8
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 8
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Soralite Ingot",
+          "qty": 160
+        },
+        {
+          "name": "Corrosive Solvent",
+          "qty": 30
+        },
+        {
+          "name": "Thermal Core",
+          "qty": 10
+        },
+        {
+          "name": "AI Core",
+          "qty": 10
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 9
+        }
+      ]
+    }
   },
   "Tanzee Ignis's Assault Rifle": {
     "result_qty": 1,
@@ -16372,7 +23670,59 @@
       }
     ],
     "icon": "images/Terra_Blade_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 40
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 120
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 480
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 240
+        }
+      ]
+    }
   },
   "Terra Blade Schematic": {
     "result_qty": 1,
@@ -16447,7 +23797,79 @@
       }
     ],
     "icon": "images/Terraprisma_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 40
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 3
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 5
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 7
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 10
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 480
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 240
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ]
+    }
   },
   "Terraprisma Schematic": {
     "result_qty": 1,
@@ -16785,7 +24207,75 @@
       }
     ],
     "icon": "images/Tropical_Outfit_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Cloth",
+          "qty": 3
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 2
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Cloth",
+          "qty": 9
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Cloth",
+          "qty": 13
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 9
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Cloth",
+          "qty": 19
+        },
+        {
+          "name": "Flame Organ",
+          "qty": 13
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 12
+        }
+      ]
+    }
   },
   "Tropical Outfit Schematic 1": {
     "result_qty": 1,
@@ -16829,7 +24319,75 @@
       }
     ],
     "icon": "images/Tundra_Outfit_icon.png",
-    "rarity": "Common"
+    "rarity": "Common",
+    "tiers": {
+      "Common": [
+        {
+          "name": "Cloth",
+          "qty": 3
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 2
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Cloth",
+          "qty": 6
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 4
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 2
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Cloth",
+          "qty": 9
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 6
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 4
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Cloth",
+          "qty": 13
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 9
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 6
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Cloth",
+          "qty": 19
+        },
+        {
+          "name": "Ice Organ",
+          "qty": 13
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 12
+        }
+      ]
+    }
   },
   "Tundra Outfit Schematic 1": {
     "result_qty": 1,
@@ -17008,7 +24566,33 @@
       }
     ],
     "icon": "images/V1_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Ingot",
+          "qty": 30
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 15
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Ingot",
+          "qty": 270
+        },
+        {
+          "name": "High Quality Pal Oil",
+          "qty": 85
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ]
+    }
   },
   "V1 Armor Schematic 4": {
     "result_qty": 1,
@@ -17035,7 +24619,41 @@
       }
     ],
     "icon": "images/V2_Armor_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Plasteel",
+          "qty": 40
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 40
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 20
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Plasteel",
+          "qty": 270
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 202
+        },
+        {
+          "name": "High Quality Cloth",
+          "qty": 80
+        },
+        {
+          "name": "Ancient Civilization Parts",
+          "qty": 15
+        }
+      ]
+    }
   },
   "V2 Armor Schematic 4": {
     "result_qty": 1,
@@ -17179,7 +24797,79 @@
       }
     ],
     "icon": "images/Vortex_Beater_icon.png",
-    "rarity": null
+    "rarity": null,
+    "tiers": {
+      "Common": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 40
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 20
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 5
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 60
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 30
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 10
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 120
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 60
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 15
+        }
+      ],
+      "Epic": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 240
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 120
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 20
+        }
+      ],
+      "Legendary": [
+        {
+          "name": "Hallowed Bar",
+          "qty": 480
+        },
+        {
+          "name": "Pal Metal Ingot",
+          "qty": 240
+        },
+        {
+          "name": "Electric Organ",
+          "qty": 25
+        }
+      ]
+    }
   },
   "Vortex Beater Schematic": {
     "result_qty": 1,

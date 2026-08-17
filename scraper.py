@@ -107,21 +107,25 @@ def apply_manual_schematic_families(items):
         prev_name = None
         for tier, rarity in enumerate(SCHEMATIC_TIER_RARITIES, start=1):
             name = f"{base} Schematic {tier}"
-            if name in items and items[name].get("materials"):
-                prev_name = name
-                continue  # already has real scraped data, don't clobber it
-
-            materials = [] if prev_name is None else [{"name": prev_name, "qty": 5}]
-            station = None if prev_name is None else "Drafting Table"
-            icon = items.get(name, {}).get("icon")
-            items[name] = {
-                "result_qty": 1,
-                "station": station,
-                "materials": materials,
-                "rarity": rarity,
-                "icon": icon,
-            }
-            added.append(name)
+            has_real_materials = name in items and items[name].get("materials")
+            if has_real_materials:
+                # Data already regenerated (e.g. by apply_manual_schematic_families
+                # running again); fetch_rarities_and_tiers may still have blanked
+                # its rarity since these pages don't exist on the wiki, so always
+                # re-enforce it here regardless of whether materials needed a rebuild.
+                items[name]["rarity"] = rarity
+            else:
+                materials = [] if prev_name is None else [{"name": prev_name, "qty": 5}]
+                station = None if prev_name is None else "Drafting Table"
+                icon = items.get(name, {}).get("icon")
+                items[name] = {
+                    "result_qty": 1,
+                    "station": station,
+                    "materials": materials,
+                    "rarity": rarity,
+                    "icon": icon,
+                }
+                added.append(name)
             prev_name = name
     return added
 
@@ -167,8 +171,10 @@ def get_all_item_titles():
 
 
 def get_recipe(title):
-    """Returns a dict with result_qty/station/materials, or None if the
-    page has no (or an empty) Crafting Recipe template."""
+    """Returns a dict with result_qty/station/materials (Common-tier), or
+    None if the page has no (or an empty) Crafting Recipe template. Tier
+    scaling and rarity are filled in later by fetch_rarities_and_tiers,
+    which is authoritative - this is just the initial per-title scrape."""
     params = {
         "action": "parse",
         "page": title,
@@ -182,43 +188,8 @@ def get_recipe(title):
         return None
 
     wikitext = data["parse"]["wikitext"]["*"]
-    parsed = mwparserfromhell.parse(wikitext)
-
-    for template in parsed.filter_templates():
-        if template.name.strip().lower() != "crafting recipe":
-            continue
-
-        if not template.has("ingredients"):
-            return None
-        ingredients_raw = template.get("ingredients").value.strip()
-        if not ingredients_raw:
-            return None
-
-        materials = []
-        for chunk in ingredients_raw.split(";"):
-            chunk = chunk.strip()
-            if not chunk:
-                continue
-            name, _, qty = chunk.rpartition("*")
-            name = name.strip()
-            qty = qty.strip()
-            if not name or not qty.isdigit():
-                continue
-            materials.append({"name": name, "qty": int(qty)})
-
-        if not materials:
-            return None
-
-        yield_str = template.get("yield").value.strip() if template.has("yield") else "1"
-        station = template.get("workbench").value.strip() if template.has("workbench") else ""
-
-        return {
-            "result_qty": int(yield_str) if yield_str.isdigit() else 1,
-            "station": station,
-            "materials": materials,
-        }
-
-    return None
+    base_recipe, _tiers, _rarity = _parse_page(wikitext)
+    return base_recipe
 
 
 def _chunked(seq, size):
@@ -228,12 +199,90 @@ def _chunked(seq, size):
 
 RARITY_BATCH_SIZE = 50
 
+# The wiki's {{Crafting Recipe}} template can carry a base (unnumbered)
+# ingredients list PLUS numbered variants (2_ingredients .. 5_ingredients)
+# that scale the material cost for higher rarity tiers of the SAME item -
+# e.g. Advanced Bow's base recipe is Common-tier; 2_ingredients is what it
+# costs once you've unlocked the Uncommon schematic, 3_ is Rare, etc. This
+# mapping (unnumbered=Common, 2=Uncommon, 3=Rare, 4=Epic, 5=Legendary) is
+# fixed by the game's 5-tier rarity system, not per-item.
+RARITY_TIER_NAMES = ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
 
-def fetch_rarities(items):
-    """Looks up each item's rarity (Common/Uncommon/Rare/Epic/Legendary,
-    i.e. white/green/blue/purple/gold) from its Item infobox, batched 50
-    pages per request via prop=revisions (much faster than one page per
-    request). Sets a 'rarity' field on each item, or None if absent."""
+
+def _parse_ingredients(raw):
+    """Parses a 'Wood*36; Stone*18; Cloth' style ingredients string. A
+    chunk with no '*qty' suffix (e.g. a single-ingredient recipe like
+    Bowler Hat's plain "Cloth") implies a quantity of 1."""
+    materials = []
+    text = raw.strip_code() if hasattr(raw, "strip_code") else str(raw)
+    for chunk in text.split(";"):
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+        if "*" in chunk:
+            name, _, qty = chunk.rpartition("*")
+            name = name.strip()
+            qty = qty.strip()
+            if not (name and qty.isdigit()):
+                continue
+        else:
+            name, qty = chunk, "1"
+        materials.append({"name": name, "qty": int(qty)})
+    return materials
+
+
+def _parse_page(wikitext):
+    """Returns (base_recipe_or_None, tiers_dict_or_None, rarity_or_None) for
+    one page's wikitext. tiers_dict (rarity name -> materials list) is only
+    set when the page has more than one rarity-tier ingredient list."""
+    parsed = mwparserfromhell.parse(wikitext)
+    rarity = None
+    recipe_template = None
+    for template in parsed.filter_templates():
+        name = template.name.strip().lower()
+        if name == "item" and template.has("rarity"):
+            rarity = template.get("rarity").value.strip_code().strip() or None
+        elif name == "crafting recipe":
+            recipe_template = template
+
+    if recipe_template is None:
+        return None, None, rarity
+
+    tiers = {}
+    if recipe_template.has("ingredients"):
+        base_materials = _parse_ingredients(recipe_template.get("ingredients").value)
+        if base_materials:
+            tiers[RARITY_TIER_NAMES[0]] = base_materials
+    for tier_num in range(2, 6):
+        param = f"{tier_num}_ingredients"
+        if recipe_template.has(param):
+            tier_materials = _parse_ingredients(recipe_template.get(param).value)
+            if tier_materials:
+                tiers[RARITY_TIER_NAMES[tier_num - 1]] = tier_materials
+
+    if not tiers:
+        return None, None, rarity
+
+    yield_str = recipe_template.get("yield").value.strip_code().strip() if recipe_template.has("yield") else "1"
+    station = recipe_template.get("workbench").value.strip_code().strip() if recipe_template.has("workbench") else ""
+    base_recipe = {
+        "result_qty": int(yield_str) if yield_str.isdigit() else 1,
+        "station": station,
+        "materials": tiers.get(RARITY_TIER_NAMES[0], next(iter(tiers.values()))),
+    }
+    multi_tier = tiers if len(tiers) > 1 else None
+    return base_recipe, multi_tier, rarity
+
+
+def fetch_rarities_and_tiers(items):
+    """Batched (50 pages/request via prop=revisions) pass that sets each
+    item's 'rarity' field AND, when the wiki page has rarity-scaled
+    ingredient lists, a 'tiers' dict of {rarity: materials} - see
+    RARITY_TIER_NAMES above. Also corrects 'materials'/'station' to the
+    Common-tier recipe, since the original per-title scrape only captured
+    whichever tier happened to be the unnumbered default (usually correct,
+    but this repass is authoritative). Items with no wiki page (manual
+    overrides, synthetic leaf placeholders) are left untouched."""
     names = list(items.keys())
 
     for batch_num, batch in enumerate(_chunked(names, RARITY_BATCH_SIZE), start=1):
@@ -255,20 +304,22 @@ def fetch_rarities(items):
                 continue
             revisions = page.get("revisions")
             if not revisions:
-                items[title]["rarity"] = None
-                continue
+                continue  # no wiki page - leave existing (possibly manual) data untouched
 
             wikitext = revisions[0]["slots"]["main"]["*"]
-            parsed = mwparserfromhell.parse(wikitext)
-            rarity = None
-            for template in parsed.filter_templates():
-                if template.name.strip().lower() == "item" and template.has("rarity"):
-                    rarity = template.get("rarity").value.strip_code().strip() or None
-                    break
+            base_recipe, tiers, rarity = _parse_page(wikitext)
             items[title]["rarity"] = rarity
+            if base_recipe is not None:
+                items[title]["result_qty"] = base_recipe["result_qty"]
+                items[title]["station"] = base_recipe["station"]
+                items[title]["materials"] = base_recipe["materials"]
+            if tiers is not None:
+                items[title]["tiers"] = tiers
+            elif "tiers" in items[title]:
+                del items[title]["tiers"]
 
         done = min(batch_num * RARITY_BATCH_SIZE, len(names))
-        print(f"  rarities: {done}/{len(names)}")
+        print(f"  rarities/tiers: {done}/{len(names)}")
         time.sleep(REQUEST_DELAY_SECONDS)
 
 
@@ -358,7 +409,7 @@ def reconcile_materials(items):
 def main():
     icons_only = "--icons-only" in sys.argv
     fix_missing = "--fix-missing" in sys.argv
-    add_rarities = "--rarities" in sys.argv
+    add_rarities = "--rarities" in sys.argv or "--tiers" in sys.argv
     incremental = icons_only or fix_missing or add_rarities
 
     if incremental:
@@ -369,8 +420,8 @@ def main():
             added = reconcile_materials(items)
             print(f"Added {len(added)} missing referenced materials: {', '.join(added)}")
         if add_rarities:
-            print("Fetching rarities...")
-            fetch_rarities(items)
+            print("Fetching rarities/tiers...")
+            fetch_rarities_and_tiers(items)
         print("Fetching icons...")
     else:
         print("Fetching item list from Category:Items ...")
@@ -394,8 +445,8 @@ def main():
 
             time.sleep(REQUEST_DELAY_SECONDS)
 
-        print("Fetching rarities...")
-        fetch_rarities(items)
+        print("Fetching rarities/tiers...")
+        fetch_rarities_and_tiers(items)
         print("Fetching icons...")
 
     apply_manual_overrides(items)
