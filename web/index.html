@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palworld Crafting Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+  <h1>Palworld Crafting Calculator</h1>
+  <p class="subtitle">Look up any item and see everything you need to craft it, all the way down to raw resources.</p>
+</header>
+
+<main>
+  <section class="controls">
+    <div class="field search-field">
+      <label for="item-search">Item</label>
+      <input type="text" id="item-search" placeholder="Search for an item..." autocomplete="off">
+      <div id="suggestions" class="suggestions hidden"></div>
+    </div>
+
+    <div class="field">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" min="1" value="1">
+    </div>
+
+    <button id="calculate-btn" disabled>Calculate</button>
+  </section>
+
+  <section id="empty-state" class="empty-state">
+    <p>Search for an item above to see its full crafting breakdown.</p>
+  </section>
+
+  <section id="results" class="results hidden">
+    <div class="panel">
+      <h2>Crafting Breakdown</h2>
+      <div id="breakdown-tree" class="tree"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Total Raw Resources</h2>
+      <div id="summary-list" class="summary"></div>
+    </div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
