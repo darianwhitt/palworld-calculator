@@ -9,7 +9,7 @@
 <body>
 <header class="app-header">
   <h1>Palworld Crafting Calculator</h1>
-  <p class="subtitle">Look up any item and see everything you need to craft it, all the way down to raw resources.</p>
+  <p class="subtitle">Look up items, add several to a list, and see everything you need to craft them, all the way down to raw resources.</p>
 </header>
 
 <main>
@@ -25,21 +25,35 @@
       <input type="number" id="quantity" min="1" value="1">
     </div>
 
-    <button id="calculate-btn" disabled>Calculate</button>
+    <button id="add-btn" disabled>Add to List</button>
+  </section>
+
+  <section id="schematic-panel" class="panel schematic-panel hidden">
+    <h2>Schematic Tiers</h2>
+    <p class="panel-note">One-time blueprint unlock cost for each rarity tier (5 of one tier combine into 1 of the next, at a Drafting Table). Not part of the crafting list totals below.</p>
+    <div id="schematic-table" class="schematic-table"></div>
   </section>
 
   <section id="empty-state" class="empty-state">
-    <p>Search for an item above to see its full crafting breakdown.</p>
+    <p>Search for an item above and add it to your crafting list.</p>
   </section>
 
   <section id="results" class="results hidden">
     <div class="panel">
-      <h2>Crafting Breakdown</h2>
+      <div class="panel-header-row">
+        <h2>Crafting List</h2>
+      </div>
+      <div id="craft-list" class="craft-list"></div>
+
+      <h2 class="breakdown-heading">Crafting Breakdown</h2>
       <div id="breakdown-tree" class="tree"></div>
     </div>
 
     <div class="panel">
-      <h2>Total Raw Resources</h2>
+      <div class="panel-header-row">
+        <h2>Total Raw Resources</h2>
+        <span class="panel-note">Check off what you already have</span>
+      </div>
       <div id="summary-list" class="summary"></div>
     </div>
   </section>

@@ -176,6 +176,52 @@ def _chunked(seq, size):
         yield seq[i:i + size]
 
 
+RARITY_BATCH_SIZE = 50
+
+
+def fetch_rarities(items):
+    """Looks up each item's rarity (Common/Uncommon/Rare/Epic/Legendary,
+    i.e. white/green/blue/purple/gold) from its Item infobox, batched 50
+    pages per request via prop=revisions (much faster than one page per
+    request). Sets a 'rarity' field on each item, or None if absent."""
+    names = list(items.keys())
+
+    for batch_num, batch in enumerate(_chunked(names, RARITY_BATCH_SIZE), start=1):
+        params = {
+            "action": "query",
+            "titles": "|".join(batch),
+            "prop": "revisions",
+            "rvprop": "content",
+            "rvslots": "main",
+            "format": "json",
+        }
+        resp = _get_with_retry(params)
+        data = resp.json()
+        pages = data.get("query", {}).get("pages", {})
+
+        for page in pages.values():
+            title = page.get("title")
+            if title not in items:
+                continue
+            revisions = page.get("revisions")
+            if not revisions:
+                items[title]["rarity"] = None
+                continue
+
+            wikitext = revisions[0]["slots"]["main"]["*"]
+            parsed = mwparserfromhell.parse(wikitext)
+            rarity = None
+            for template in parsed.filter_templates():
+                if template.name.strip().lower() == "item" and template.has("rarity"):
+                    rarity = template.get("rarity").value.strip_code().strip() or None
+                    break
+            items[title]["rarity"] = rarity
+
+        done = min(batch_num * RARITY_BATCH_SIZE, len(names))
+        print(f"  rarities: {done}/{len(names)}")
+        time.sleep(REQUEST_DELAY_SECONDS)
+
+
 def fetch_icons(items):
     """Looks up each item's 'File:<name> icon.png' page via the API (batched
     50 at a time), downloads any not already cached locally, and sets an
@@ -262,14 +308,19 @@ def reconcile_materials(items):
 def main():
     icons_only = "--icons-only" in sys.argv
     fix_missing = "--fix-missing" in sys.argv
+    add_rarities = "--rarities" in sys.argv
+    incremental = icons_only or fix_missing or add_rarities
 
-    if icons_only or fix_missing:
+    if incremental:
         with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
             items = json.load(f)
         print(f"Loaded {len(items)} existing items.")
         if fix_missing:
             added = reconcile_materials(items)
             print(f"Added {len(added)} missing referenced materials: {', '.join(added)}")
+        if add_rarities:
+            print("Fetching rarities...")
+            fetch_rarities(items)
         print("Fetching icons...")
     else:
         print("Fetching item list from Category:Items ...")
@@ -293,6 +344,8 @@ def main():
 
             time.sleep(REQUEST_DELAY_SECONDS)
 
+        print("Fetching rarities...")
+        fetch_rarities(items)
         print("Fetching icons...")
 
     apply_manual_overrides(items)

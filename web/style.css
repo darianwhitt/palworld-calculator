@@ -9,6 +9,12 @@
   --accent-dim: #9c7027;
   --leaf: #6fbf73;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --rarity-common: #c7ccd4;
+  --rarity-uncommon: #4caf50;
+  --rarity-rare: #4d9bf5;
+  --rarity-epic: #a855f7;
+  --rarity-legendary: #e8a33d;
 }
 
 * {
@@ -274,4 +280,186 @@ button:disabled {
   background: var(--bg-raised);
   border: 1px solid var(--border);
   flex-shrink: 0;
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.summary-row.owned .summary-name,
+.summary-row.owned .summary-qty {
+  color: var(--text-dim);
+  text-decoration: line-through;
+  text-decoration-color: var(--border);
+}
+
+.summary-row.owned .icon,
+.summary-row.owned .icon-fallback {
+  opacity: 0.4;
+}
+
+.panel-header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.panel-header-row h2 {
+  margin: 0;
+}
+
+.panel-note {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.breakdown-heading {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+/* Crafting list (cart) */
+
+.craft-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.craft-list-empty {
+  color: var(--text-dim);
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.craft-list-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.craft-list-name {
+  flex: 1;
+  font-size: 14px;
+}
+
+.craft-list-qty {
+  width: 70px;
+  padding: 5px 8px;
+  font-size: 13px;
+}
+
+.craft-list-remove {
+  background: transparent;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.craft-list-remove:hover {
+  background: #3a2020;
+  color: #e88;
+  border-color: #5a3030;
+}
+
+/* Multiple breakdown roots (one per crafting-list item) */
+
+.breakdown-tree > details {
+  margin-bottom: 10px;
+}
+
+.breakdown-tree > details:last-child {
+  margin-bottom: 0;
+}
+
+.breakdown-tree summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breakdown-tree summary:hover {
+  background: var(--bg-raised);
+}
+
+.breakdown-tree summary .node-qty {
+  margin-left: auto;
+}
+
+/* Schematic tier panel */
+
+.schematic-panel.hidden {
+  display: none;
+}
+
+.schematic-panel {
+  margin-top: 20px;
+}
+
+.schematic-table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.schematic-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.rarity-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.rarity-name {
+  width: 90px;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.schematic-cost {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text-dim);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.schematic-cost span {
+  color: var(--leaf);
 }
